@@ -1,0 +1,51 @@
+<div class="login-body">
+    <div class="ui-fluid">
+        <div class="ui-g">
+            <div style="padding: 0;" class="ui-g-12 ui-md-12 ui-lg-8">
+                <div class="login-image"></div>
+            </div>
+            <div style="padding: 0;" class="ui-g-12 ui-md-12 ui-lg-4">
+                <div class="card login-panel ui-fluid">
+                    <div class="login-panel-content">
+                        <div class="ui-g">
+                            <div class="ui-g-3" style="text-align:left;">
+                                <img src="assets/layout/images/logo.png" style="height: 30px;" alt="avalon-ng"/>
+                            </div>
+                            <div class="ui-g-9" style="text-align:right;">
+                                <h2 class="welcome-text">Bienvenido</h2>
+                                <span class="guest-sign-in"></span>
+                            </div>
+                        </div>
+
+                        <div class="ui-g-12">
+                            <form ngNativeValidate #f="ngForm" (ngSubmit)="ingresar( f )">
+                                <div class="ui-g">
+                                    <div class="ui-g-12" style="text-align:left;">
+                                        <label class="login-label">Correo:</label>
+                                        <div class="login-input">
+                                            <input [ngModel]="user" name="user" type="text" pInputText required/>
+                                        </div>
+                                    </div>
+                                    <div class="ui-g-12" style="text-align:left;">
+                                        <label class="login-label">Contraseña:</label>
+                                        <div class="login-input">
+                                            <input ngModel name="password" required type="password" pPassword/>
+                                        </div>
+                                    </div>
+                                    <div *ngIf="!usuarioService.display" class="ui-g-12 button-pane">
+                                        <button pButton type="submit" label="Iniciar Sesión"></button>
+                                    </div>
+                                    <div *ngIf="usuarioService.display" class="ui-g-12">
+                                        <p-progressSpinner [style]="{width: '50px', height: '50px'}"
+                                                           strokeWidth="8"></p-progressSpinner>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

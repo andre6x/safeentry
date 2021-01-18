@@ -1,0 +1,190 @@
+<div class="ui-g">
+    <div class="ui-g-12" style="margin-bottom: -25px;">
+        <div class="card card-w-title">
+            <div class="ui-g" style="margin-bottom: -15px; margin-top: -15px;">
+                <div class="ui-g-2 ui-md-2" align="left">
+                    <button (click)="redirectBackPage()"
+                            pButton
+                            type="button"
+                            icon="pi pi-chevron-left"
+                            style="margin-right: .5em">
+                    </button>
+                </div>
+                <div class="ui-g-8 ui-md-8" align="center">
+                    <i class="fa fa-map-marker"
+                       style="font-size: 16px; width: 24px;"></i>
+                    <strong>{{puntoModel.nombre}}</strong>
+                    <i class="fa fa-home"
+                       style="font-size: 16px; width: 24px;"></i>
+                    <strong>{{localidadInfo(localidadModel)}}</strong>
+                </div>
+                <div class="ui-g-2 ui-md-2" align="right">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui-g-12" style="margin-top: 0px;">
+        <div class="card card-w-title">
+            <p-tabView [(activeIndex)]="index" (onChange)="onTabChange($event)" orientation="right">
+                <p-tabPanel header="Localidad" leftIcon="pi pi-calendar" [selected]="index == 0">
+
+                    <div class="ui-g">
+                        <div class="ui-g-2 ui-md-2" align="left">
+                        </div>
+                        <div class="ui-g-8 ui-md-8" align="center">
+                            <strong>Datos de la Localidad</strong>
+                        </div>
+                        <div class="ui-g-2 ui-md-2" align="right">
+                            <button (click)="saveData()" pButton
+                                    type="button"
+                                    icon="fa fa-save"
+                                    iconPos="right"
+                                    class="success-btn"
+                                    style="margin-left: 5px"
+                                    label="Guardar">
+                            </button>
+                        </div>
+
+                        <div class="ui-g-12 ui-lg-6">
+                            <div class="ui-g ui-fluid form-group">
+                                <div class="ui-g-12 ui-md-6" align="right">
+                                    <h3>Tipo:</h3>
+                                </div>
+                                <div class="ui-g-12 ui-md-6">
+                                    <p-dropdown [options]="listTipoItem"
+                                                [(ngModel)]="localidadModel.tipo"
+                                                [disabled]="!renderTabs"
+                                                (onChange)="onChangeTipo($event)"
+                                                [filter]="true">
+                                    </p-dropdown>
+                                </div>
+                                <div class="ui-g-12 ui-md-6" [ngStyle]="etiquetaManzana" align="right">
+                                    <h3>Manzana:</h3>
+                                </div>
+                                <div class="ui-g-12 ui-md-6" [ngStyle]="etiquetaManzana">
+                                    <input [(ngModel)]="localidadModel.manzana"
+                                           type="text" pInputText placeholder="">
+                                </div>
+                                <div class="ui-g-12 ui-md-6" [ngStyle]="etiquetaVilla" align="right">
+                                    <h3>Villa:</h3>
+                                </div>
+                                <div class="ui-g-12 ui-md-6" [ngStyle]="etiquetaVilla">
+                                    <input [(ngModel)]="localidadModel.villa"
+                                           type="text" pInputText placeholder="">
+                                </div>
+                                <div class="ui-g-12 ui-md-6" [ngStyle]="etiquetaDescripcion" align="right">
+                                    <h3>Edificio:</h3>
+                                </div>
+                                <div class="ui-g-12 ui-md-6" [ngStyle]="etiquetaDescripcion">
+                                    <input [(ngModel)]="localidadModel.descripcion"
+                                           type="text" pInputText placeholder="">
+                                </div>
+                                <div class="ui-g-12 ui-md-6" [ngStyle]="etiquetaPiso" align="right">
+                                    <h3>Piso:</h3>
+                                </div>
+                                <div class="ui-g-12 ui-md-6" [ngStyle]="etiquetaPiso">
+                                    <input [(ngModel)]="localidadModel.piso"
+                                           type="text" pInputText placeholder="">
+                                </div>
+                                <div class="ui-g-12 ui-md-6" [ngStyle]="etiquetaDepartamento" align="right">
+                                    <h3>Departamento:</h3>
+                                </div>
+                                <div class="ui-g-12 ui-md-6" [ngStyle]="etiquetaDepartamento">
+                                    <input [(ngModel)]="localidadModel.departamento"
+                                           type="text" pInputText placeholder="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui-g-12 ui-lg-6">
+                            <div class="ui-g ui-fluid form-group">
+
+                                <div class="ui-g-12 ui-md-6" [ngStyle]="etiquetaMetoNoti" align="right">
+                                    <h3>Metodo Notificación:</h3>
+                                </div>
+                                <div class="ui-g-12 ui-md-6" [ngStyle]="etiquetaMetoNoti">
+                                    <div>
+                                        <p-radioButton name="group1"
+                                                       value="1" label="Llamada Telefónica"
+                                                       [(ngModel)]="localidadModel.metodoNotificacion"
+                                                       inputId="opt1">
+                                        </p-radioButton>
+                                    </div>
+                                    <div>
+                                        <p-radioButton name="group1"
+                                                       value="2" label="Aplicación Móvil"
+                                                       [(ngModel)]="localidadModel.metodoNotificacion"
+                                                       inputId="opt2"></p-radioButton>
+                                    </div>
+                                </div>
+                                <div class="ui-g-12 ui-md-6" align="right">
+                                    <h3>Estado</h3>
+                                </div>
+                                <div class="ui-g-12 ui-md-6">
+                                    <p-dropdown [options]="listStatusItem"
+                                                [(ngModel)]="localidadModel.estado"
+                                                [filter]="true">
+                                    </p-dropdown>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="ui-g-12" align="center" [ngStyle]="etiquetaAsignarEdificio">
+                            <strong>Asignar a Edificio</strong>
+                        </div>
+
+                        <div class="ui-g-12 ui-lg-12" [ngStyle]="etiquetaAsignarEdificio">
+                            <div class="ui-g ui-fluid form-group">
+                                <div class="ui-g-12 ui-md-4">
+                                </div>
+                                <div class="ui-g-12 ui-md-4">
+                                    <p-dropdown [options]="listLocalidadPadreItem"
+                                                [(ngModel)]="localidadModelPadre"
+                                                (onChange)="onChangeEdificio($event)"
+                                                [filter]="true">
+                                    </p-dropdown>
+                                </div>
+                                <div class="ui-g-12 ui-md-4">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </p-tabPanel>
+                <p-tabPanel header="Residentes" leftIcon="pi pi-calendar" [selected]="index == 1" [disabled]="renderTabs">
+
+                    <app-location-resident-list #childResident></app-location-resident-list>
+
+                </p-tabPanel>
+                <p-tabPanel header="Vehiculos" leftIcon="pi pi-calendar" [selected]="index == 2" [disabled]="renderTabs">
+
+                    <app-location-vehicle-list #childVehicle></app-location-vehicle-list>
+
+                </p-tabPanel>
+                <p-tabPanel header="Teléfonos" leftIcon="pi pi-calendar" [selected]="index == 3" [disabled]="renderTabs">
+
+                    <app-location-phone-list #childPhone></app-location-phone-list>
+
+                </p-tabPanel>
+                <p-tabPanel header="Preautorizados" leftIcon="pi pi-calendar" [selected]="index == 4" [disabled]="renderTabs">
+
+                    <app-location-preauthorization-list #childPreauth></app-location-preauthorization-list>
+
+                </p-tabPanel>
+                <p-tabPanel header="Lista Negra" leftIcon="pi pi-calendar" [selected]="index == 5" [disabled]="renderTabs">
+
+                    <app-location-blacklist-list #childBlacklist></app-location-blacklist-list>
+
+                </p-tabPanel>
+                <p-tabPanel header="Configuraciones" leftIcon="pi pi-calendar" [selected]="index == 6" [disabled]="renderTabs">
+
+                    Configuraciones
+
+                </p-tabPanel>
+            </p-tabView>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+{
+    "name": "scc.public.server",
+    "version": "1.0.0",
+    "description": "Servidor scc public",
+    "main": "appSafeEntryAdminServer.js",
+    "scripts": {
+        "start": "node appSafeEntryAdminServer.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Andres Onate",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.16.3",
+        "socket.io": "^2.1.1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.3"
+    }
+}

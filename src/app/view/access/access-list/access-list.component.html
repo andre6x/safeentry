@@ -1,0 +1,196 @@
+<div class="ui-g">
+    <div class="ui-g-12" style="margin-bottom: -25px;">
+        <div class="card card-w-title">
+            <div class="ui-g" style="margin-bottom: -15px; margin-top: -15px;">
+                <div class="ui-g-2 ui-md-2" align="left">
+                </div>
+                <div class="ui-g-8 ui-md-8" align="center">
+                    <strong>Accesos</strong>
+                </div>
+                <div class="ui-g-2 ui-md-2" align="right">
+                </div>
+
+                <div class="ui-g-12 ui-md-12">
+                    <div class="ui-g ui-fluid form-group">
+                        <div class="ui-g-12 ui-md-2">
+                            <p-dropdown [options]="listPuntoItem"
+                                        [(ngModel)]="selectPuntoModel"
+                                        [filter]="true">
+                            </p-dropdown>
+                        </div>
+                        <div class="ui-g-12 ui-md-2">
+                            <input [(ngModel)]="manzana"
+                                   type="text" pInputText placeholder="Manzana">
+                        </div>
+                        <div class="ui-g-12 ui-md-2">
+                            <input [(ngModel)]="villa"
+                                   type="text" pInputText placeholder="Villa">
+                        </div>
+                        <div class="ui-g-12 ui-md-2">
+                            <input [(ngModel)]="placa"
+                                   type="text" pInputText placeholder="Villa">
+                        </div>
+                        <div class="ui-g-12 ui-md-2">
+                            <p-calendar appendTo="body"
+                                        placeholder="00/00/0000 00:00:00"
+                                        [(ngModel)]="fechaInicio"
+                                        dateFormat="dd/mm/yy"
+                                        showButtonBar="true"
+                                        [showTime]="true"
+                                        [showIcon]="true">
+                            </p-calendar>
+
+                        </div>
+                        <div class="ui-g-12 ui-md-2">
+                            <p-calendar appendTo="body"
+                                        placeholder="00/00/0000 00:00:00"
+                                        [(ngModel)]="fechaFin"
+                                        dateFormat="dd/mm/yy "
+                                        showButtonBar="true"
+                                        [showTime]="true"
+                                        [showIcon]="true">
+                            </p-calendar>
+                        </div>
+                        <div class="ui-g-12 ui-md-10" align="right">
+                        </div>
+                        <div class="ui-g-12 ui-md-2" align="right">
+                            <button (click)="callServiceVisit()"
+                                    [disabled]="modalLoadingService.loading"
+                                    pButton type="button"
+                                    label="Buscar">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="ui-g-12">
+        <div class="card card-w-title">
+
+            <div *ngIf="modalLoadingService.loading" align="center">
+                <p-progressSpinner></p-progressSpinner>
+                <h2 class=""> Espere un momento... </h2>
+            </div>
+            <div *ngIf="!modalLoadingService.loading">
+                <p-table #dt [columns]="cols"
+                         *ngIf="listVisitaModel.length>0"
+                         styleClass="ui-table-cars"
+                         [value]="listVisitaModel"
+                         [responsive]="true"
+                         [paginator]="true"
+                         [rows]="10"
+                         dataKey="nombre">
+                    <ng-template pTemplate="caption">
+
+                    </ng-template>
+                    <ng-template pTemplate="header" let-columns>
+                        <tr>
+                            <th *ngFor="let col of columns" [pSortableColumn]="col.field" [ngSwitch]="col.field">
+                                {{col.header}}
+                                <p-sortIcon [field]="col.field"></p-sortIcon>
+                            </th>
+                            <th style="width: 80px; text-align: center;">
+                                Acciones
+                            </th>
+                        </tr>
+                    </ng-template>
+
+                    <ng-template pTemplate="body" let-rowData let-columns="columns">
+                        <tr [pSelectableRow]="rowData" [pEditableRow]="rowData">
+                            <td>
+                                <div *ngIf="rowData.persona">
+                                    <div>
+                                        {{rowData.persona.nombres}}
+                                    </div>
+                                    <div>
+                                        {{rowData.persona.apellidos}}
+                                    </div>
+                                    <div *ngIf="rowData.descripcionServicio">
+                                        <div *ngIf="rowData.descripcionServicio!=='false'">
+                                            {{rowData.descripcionServicio}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div *ngIf="rowData.localidad">
+                                    <div>
+                                        {{localidadInfo(rowData.localidad)}}
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div *ngIf="rowData.vehiculo">
+                                    {{rowData.vehiculo.placa}}
+                                </div>
+                            </td>
+                            <td>
+                                <i class="fa fa-calendar"
+                                   style="font-size: 16px; width: 24px;"></i>
+                                {{rowData.fecha | date: 'dd/MM/yyyy HH:mm:ss' : '-0'}}
+                            </td>
+                            <td >
+                                <div *ngIf="rowData.metodoNotificacion==='APP'" style="font-weight: bold;">
+                                    <i class="fa fa-mobile"></i>
+                                    Aplicación Móvil
+                                </div>
+                                <div *ngIf="rowData.metodoNotificacion!=='APP'" style="font-weight: bold;">
+                                    <i class="fa fa-phone"></i>
+                                    Llamada Telefónica
+                                </div>
+                                <div *ngIf="rowData.llamadas">
+                                    <div *ngIf="rowData.llamadas.length>0">
+                                        <div *ngFor="let item of rowData.llamadas">
+                                            <div>
+                                                <div class="ui-g-12 ui-md-12">
+                                                    {{item.telefonoLlamada}}
+                                                </div>
+                                                <div class="ui-g-12 ui-md-12">
+                                                    <span class="label " style="font-weight: bold; font-size: 14px;"
+                                                          [ngClass]="estadoClass(item.respuesta)">
+                                                        {{metodoNotificacion(item.respuesta)}}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <span class="label " style="font-weight: bold; font-size: 14px;"
+                                          [ngClass]="estadoClass(rowData.accesoConcedido)">
+                                        {{rowData.estado}}
+                                    </span>
+                                </div>
+                            </td>
+
+                            <td align="center">
+                                <button (click)="selectFoto(rowData)"
+                                        pButton type="button"
+                                        icon="fa fa-photo"
+                                        style="margin-right: .5em">
+                                </button>
+                            </td>
+                        </tr>
+                    </ng-template>
+                </p-table>
+
+
+                <div *ngIf="listPuntoModel.length==0" align="center"
+                     style="color: #5D7784; font-size: 16px; margin-top: 50px;">
+                    <button (click)="callService()"
+                            pButton type="button"
+                            label="Reintentar"
+                            style="margin-bottom:5px"
+                            class="ui-button-light">
+                    </button>
+                    <h4>No se encontraron registros.</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

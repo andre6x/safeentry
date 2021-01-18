@@ -1,0 +1,84 @@
+<div class="ui-g">
+    <div class="ui-g-12" style="margin-bottom: -25px;">
+        <div class="card card-w-title">
+            <div class="ui-g" style="margin-bottom: -15px; margin-top: -15px;">
+                <div class="ui-g-2 ui-md-2" align="left">
+                    <button (click)="redirectBackPage()"
+                            pButton
+                            type="button"
+                            icon="pi pi-chevron-left"
+                            style="margin-right: .5em">
+                    </button>
+                </div>
+                <div class="ui-g-8 ui-md-8" align="center">
+                    <i class="fa fa-map-marker"
+                       style="font-size: 16px; width: 24px;"></i>
+                    <strong>{{puntoModel.nombre}}</strong>
+                    <i class="fa fa-home"
+                       style="font-size: 16px; width: 24px;"></i>
+                    <strong>{{localidadInfo(localidadModel)}}</strong>
+                </div>
+                <div class="ui-g-2 ui-md-2" align="right">
+                    <button (click)="saveData()" pButton
+                            type="button"
+                            icon="fa fa-save"
+                            iconPos="right"
+                            class="success-btn"
+                            style="margin-left: 5px"
+                            label="Guardar">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui-g-12"  style="margin-top: 15px;">
+        <div class="card card-w-title">
+            <div class="ui-g">
+                <div class="ui-g-12 ui-md-12" align="center">
+                    <strong>Datos del Teléfono</strong>
+                </div>
+                <div class="ui-g-12 ui-lg-2">
+                </div>
+                <div class="ui-g-12 ui-lg-6">
+                    <div class="ui-g ui-fluid form-group">
+                        <div class="ui-g-12 ui-md-6" align="right">
+                            <h3>Número:</h3>
+                        </div>
+                        <div class="ui-g-12 ui-md-6">
+                            <input [(ngModel)]="telefonoContactoModel.valor"
+                                   type="text" pInputText placeholder="">
+                        </div>
+                        <div class="ui-g-12 ui-md-6" align="right">
+                            <h3>Nombre:</h3>
+                        </div>
+                        <div class="ui-g-12 ui-md-6">
+                            <input [(ngModel)]="telefonoContactoModel.descripcion"
+                                   type="text" pInputText placeholder="">
+                        </div>
+                        <div class="ui-g-12 ui-md-6" align="right">
+                            <h3>Estado</h3>
+                        </div>
+                        <div class="ui-g-12 ui-md-6">
+                            <p-dropdown [options]="listStatusItem"
+                                        [(ngModel)]="telefonoContactoModel.estado"
+                                        [filter]="true">
+                            </p-dropdown>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui-g-12 ui-lg-4">
+                    <p-fileUpload mode="advanced"
+                                  accept="image/*"
+                                  maxFileSize="1000000"
+                                  fileLimit="100"
+                                  customUpload="true"
+                                  (uploadHandler)="myUploaderFile($event)"
+                                  [auto]="true"
+                                  chooseLabel="Cargar Imagen">
+                    </p-fileUpload>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

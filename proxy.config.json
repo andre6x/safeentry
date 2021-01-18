@@ -1,0 +1,13 @@
+{
+    "/encuestas.api/*": {
+        "target": "https://apps.cajamarca.ec",
+        "secure": false,
+        "changeOrigin": true
+    },
+
+    "/encuestas.api/temp/*": {
+        "target": "https://apps.cajamarca.ec",
+        "secure": false,
+        "changeOrigin": true
+    }
+}

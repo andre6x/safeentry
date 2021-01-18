@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b3e7f6a-3e19-46f4-a7da-1f3bb7847b5f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/config/utils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/stylesCustom.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/request/request-instructive-save.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/avalon.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/content-v2/sha512/ff/eb/67e44041014a980bb7b26a5bf307d68c1248ad74825bb181224a2686364e85b9265d006d9316a6e66f972514d38ecf97f7d326cc8c727af93e49046b42bf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/content-v2/sha512/23/1a/d2b20932d6bcba037315c537a71e6dfbdc00fe8fb2ae425ec309afadcbba013cbeb2d952e55a89e8a331124ce5e2553027aa12752229543543f01d8e3cfb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/request/request-question-save.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/view/quiz-grid/quiz-grid.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/request/request-inquest-score.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/view/quiz-grid/quiz-grid.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/data/respuesta.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/avalon/main-es2015.db8dcae44a658202c23e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/index-v5/80/25/885e7f221191b32ef26eb15341caed959b847b1f74755835c67c420af945" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/content-v2/sha512/bc/20/e85c2e851600d1528ce56eecefb525109255de8f747a2dcb1c2a353089486c0f968d54e4914da3481b0fe591fcbb674bb04808bdc145980712b313692cb9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/06/fb/39518afa6979db614bdbc1d4555fb5e9751e5069d2fd4c97555c61f6c1b9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/content-v2/sha512/64/45/508f2e445590beba95b0902828cb14305ee85a377b6b59999f4ae1b85924156e361c4dc3dda2715c2472236c996896c77cd780117a09477b5ab2a74a414b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/request/request-question.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/view/quiz-list/quiz-list.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/content-v2/sha512/a7/e6/6f6ad42b0431a1fcc438dff6c9d0be3ee4492bfb7d7c702b20b6642b57c868c806389e5709f5ead986945d6c26e21c1fd58034057ea7f6a560949c866689" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/4b/58/5e6d346b09524891e9dc945a20b67689a7ab4b8f35cec5c6007762f9c243" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/response/response-inquest-score.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/content-v2/sha512/d3/84/5dc34769ff797e54a661a6c745f54d9aad371790bfb96c9be36d829c5a5e0aa87f92e7a611ef36fc48b354add162c232553661e71f728c430ed3938fb7bd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/content-v2/sha512/db/5b/0d5070b2c6daf52a2e571d056ba13c8684443a75b05d8c8f1df2259fc4c171d0e847196f5e33503e0bf2def8affbb0f4d7f13e1c910a823cdfec57c69dcf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/data/question-resume.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/response/response-question.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/5f/4f/e449b05a34bc9304d1e8d4c9f4408aa18d954d4f9d3b2e7f5833ed13409b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/f6/c7/76d79ee5992d64b7ed22c4b65d909566fa5ece20462686a39577e4dd4121" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/request/request-instructive.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/content-v2/sha512/c7/fa/36d802b8d4aaa6aff7ecc120670110f8df66321f64f87db6170a881d6b856e9c59d6cea4b2314aa64546b5523c0c4ab992c6ec3a2d172aaff540492844a3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/view/quiz-instructive/quiz-instructive.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/1c/1e/300f4f9f445cce4753ae8ac7f71c06181502d67fc9f5aeb4dc8cc814ddbe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/view/quiz-list/quiz-list.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/data/inquest.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/merve.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/index-v5/8e/62/1b7e810230a3182d6cd2d85e470551224e54ddcffd1c6385ab973975a9b2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/content-v2/sha512/f9/cc/afd68fec6c4d2d6e1dc1057575c896d4f20399f3f98dbf00ea0d468be873b472d7d184ca76684d00964afbcc9ea22754f891190d62f9aa3538c9992f2911" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/view/quiz-pdf/quiz-pdf.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/content-v2/sha512/92/b4/22939448f2237c67a82d58ff6488dbb546b660edec2bee94d43b75529cda758cdcd8427c9969a1cc762a30f15c5d5db780afb12cf533f39f893a1c6c2948" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/ee/a5/5879a43a7a538524736bbbb74c0a11360a297af08ef0ede61fcc15991c14" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/data/evaluacion.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/response/response-lnquest.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/less/.vscode/launch.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/response/response-instructive-score.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/index-v5/45/78/9b15054cbbf00f816d3d42060e8f8b1dad34b8154bd322e8385c97fd989c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/services/quiz.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/index-v5/09/8b/b880861ace74494bf46f423211eee0442dd7c18b7d8150f33bd83f051609" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/index-v5/b4/b8/952e178858de65c7ea9fcee71a0c7c29d7cdcac7376adcfd8adf05423b4a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/view/quiz-score/quiz-score.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/index-v5/4d/45/151933d69cd8193187aa8da438f1c779de9589d787080f0b2cd4eba39aec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/data/question-type.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/index-v5/cf/23/51cbf25f4dc63c7f1eb4e884c63588371a4fba197b104cc9cf1e31f85caa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/data/instructive.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/data/question.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/view/quiz-instructive/quiz-instructive.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/index-v5/3d/41/2a629f0d7cc800479b9a064819f846e7a7d2f2b289964d088660cd0fce4b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/index-v5/ab/fb/3a4f09a41ad7b0f906bdf1fa2111ab1feb7b25b522e6121541d7be2e8340" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/content-v2/sha512/b1/64/ee02fcb0f7e5919c44f36e3f423256ea369e89bfea9602e508b433a97943a56c5f56ffee75eb9f4d07f5a41cae9dfb82283234deac40e60d60c8fc305304" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/data/inquest-section.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/content-v2/sha512/6f/0d/d08b35b0e2a18a25571334b5cbf5e2e0bfee758dcb7e0fce1153c866cd9fa70fe636ba45d749304dade2e2c7fed532e37cfb0a4f7bdad8780fc89b6e48a0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/data/answer.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/content-v2/sha512/92/c8/4bd98b26ee0dca329da6ca57fac98146ba7df993f9d8d42191891aaddc08e4687afba483ddc7884c734d75c1e54d57f0a9faf5206ef20fae9a78378bc017" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/response/response-question-save.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/index-v5/5f/68/9d81f3f3ce88dbbf14db6d710c638c3deb2dbc05ef8ef618866741e25d03" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/index-v5/d0/22/18932ca10aff30a44fcc3fc076ee3d05eae5aa019335b2070e2bee6d7e48" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/content-v2/sha512/3b/cb/ba06feb8566403965cc526bf2e9fb2fbf80f36e14976262e1d5a690a5e5e0aae53f3beda8ba844d228e203f515fa17f3321e9725c378e9b3d900b3471173" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/e4/f7/014dc4d5dae9c8a9adb77dbb0ba9a00bb1640c88f06a1fc40112bad366b9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/view/quiz-instructive/quiz-instructive.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/view/quiz-pdf/quiz-pdf.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/avalon/main-es5.db8dcae44a658202c23e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/view/quiz-score/quiz-score.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/9a/26/1f687ed3b8c1cd19ac1253cef6256daee99375468121f943fa8bd6f9c1dd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/view/quiz-pdf/quiz-pdf.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack/content-v2/sha512/b1/23/0ddcc4659d197603ea851bef49de3cddac75c1fc72b1869058bc679ec170263055c21dd2b4236723a61ef3a2eea1c71b7ad7d0ac88ccaff46f76681486ed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/model/request/request-inquest.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/avalon/styles.6fd06461954d72f86616.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseIdentifiedModule.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseIdentifiedModule.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/tslib/LICENSE.txt" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/tslib/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/blob/.idea/modules.xml" afterPath="$PROJECT_DIR$/node_modules/blob/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/cartesian/index.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/cartesian/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/language-service/bundles/language-service.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/language-service/bundles/language-service.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/reflect-metadata/typings.d.ts" afterPath="$PROJECT_DIR$/node_modules/reflect-metadata/typings.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-upgrade.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-upgrade.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2017.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2017.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-key.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-key.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-insert.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-insert.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/animations/animations.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/animations/animations.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/Module.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/Module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/memory-fs/lib/MemoryFileSystem.js" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/memory-fs/lib/MemoryFileSystem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/node/README.md" afterPath="$PROJECT_DIR$/node_modules/@types/node/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/testing/testing.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/common/testing/testing.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/urn.js" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/urn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/glob/LICENSE" afterPath="$PROJECT_DIR$/node_modules/@types/glob/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2016.array.include.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2016.array.include.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2017.string.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2017.string.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-comment.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-comment.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/index.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/Farm.d.ts" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/Farm.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2017.full.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2017.full.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunkModuleIterator.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunkModuleIterator.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tslib/tslib.js" afterPath="$PROJECT_DIR$/node_modules/tslib/tslib.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tslib/tslib.es6.js" afterPath="$PROJECT_DIR$/node_modules/tslib/tslib.es6.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackCompilerHandler.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackCompilerHandler.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/plugins.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/plugins.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2020.full.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2020.full.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.esnext.bigint.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.esnext.bigint.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseFilesOverrides.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseFilesOverrides.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/http/http.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/common/http/http.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/workers/NodeThreadsWorker.d.ts" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/workers/NodeThreadsWorker.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/engine.io-client/node_modules/component-emitter/LICENSE" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/node_modules/component-emitter/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-01/schema" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-01/schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/notes/index.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/notes/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/radial/index.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/radial/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/README.md" afterPath="$PROJECT_DIR$/node_modules/json-schema/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/cartesian/time.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/cartesian/time.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/elements.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/elements.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/blob/README.md" afterPath="$PROJECT_DIR$/node_modules/blob/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/estree/LICENSE" afterPath="$PROJECT_DIR$/node_modules/@types/estree/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/headers/index.js" afterPath="$PROJECT_DIR$/node_modules/adm-zip/headers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/ab/2b/18a696d32f3be282642cbf5b94dde56e9a07b82d03d52da7266468147596" afterPath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/ab/2b/18a696d32f3be282642cbf5b94dde56e9a07b82d03d52da7266468147596" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-03/schema" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-03/schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2016.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2016.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2019.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2019.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTypeOverrides.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTypeOverrides.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/https.d.ts" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/https.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io-client/node_modules/component-emitter/History.md" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/node_modules/component-emitter/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2019.full.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2019.full.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.collection.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.collection.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackAssetManager.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackAssetManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.promise.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.promise.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/AssetManager.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/AssetManager.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/events/LICENSE" afterPath="$PROJECT_DIR$/node_modules/@types/events/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/cartesian/linear.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/cartesian/linear.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/FileHandler.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/FileHandler.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/blob/.idea/vcs.xml" afterPath="$PROJECT_DIR$/node_modules/blob/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/watchpack/lib/watcherManager.js" afterPath="$PROJECT_DIR$/node_modules/watchpack/lib/watcherManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/model/response/response-login.model.ts" afterPath="$PROJECT_DIR$/src/app/model/response/response-login.model.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/avalon/index.html" afterPath="$PROJECT_DIR$/dist/avalon/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ConstructedStats.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ConstructedStats.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/regexps-uri.js" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/regexps-uri.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.generator.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.generator.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginOptionsReader.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginOptionsReader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.routes.ts" afterPath="$PROJECT_DIR$/src/app/app.routes.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ChunkIncludeExcludeTester.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ChunkIncludeExcludeTester.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackFileSystem.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackFileSystem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/polar.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/polar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/src/r3_symbols.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/core/src/r3_symbols.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseWebpackPlugin.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseWebpackPlugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/https.js" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/https.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-03/links" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-03/links" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginOptions.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginOptions.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ng2-pdf-viewer/bundles/ng2-pdf-viewer.umd.js" afterPath="$PROJECT_DIR$/node_modules/ng2-pdf-viewer/bundles/ng2-pdf-viewer.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2019.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2019.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/urix/index.js" afterPath="$PROJECT_DIR$/node_modules/urix/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/testing/testing.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/testing/testing.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es5.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es5.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/bubble.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/bubble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2016.array.include.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2016.array.include.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.dom.iterable.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.dom.iterable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2016.full.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2016.full.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.generator.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.generator.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-00/schema" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-00/schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/FileSystem.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/FileSystem.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/component-emitter/index.js" afterPath="$PROJECT_DIR$/node_modules/component-emitter/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/model/response/response-status.model.ts" afterPath="$PROJECT_DIR$/src/app/model/response/response-status.model.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/util/index.js" afterPath="$PROJECT_DIR$/node_modules/adm-zip/util/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/tslib/tslib.js" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/tslib/tslib.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunk.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-webpack/node_modules/rxjs/bundles/rxjs.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-webpack/node_modules/rxjs/bundles/rxjs.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/bundles/forms.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/bundles/forms.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/loglevel/test/console-fallback-test.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/console-fallback-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginChunkReadHandler.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginChunkReadHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/source-list-map/README.md" afterPath="$PROJECT_DIR$/node_modules/@types/source-list-map/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunkHandler.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunkHandler.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/layout.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/interactions/index.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/interactions/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/common.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/common/common.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/blob/.zuul.yml" afterPath="$PROJECT_DIR$/node_modules/blob/.zuul.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicensePolicy.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicensePolicy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/webpack-sources/README.md" afterPath="$PROJECT_DIR$/node_modules/@types/webpack-sources/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/ThirdPartyNoticeText.txt" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/ThirdPartyNoticeText.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/workers/processChild.d.ts" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/workers/processChild.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginStats.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginStats.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.main.component.ts" afterPath="$PROJECT_DIR$/src/app/app.main.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-check.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-check.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/cartesian/category.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/cartesian/category.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/big.js/README.md" afterPath="$PROJECT_DIR$/node_modules/big.js/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/big.js/big.js" afterPath="$PROJECT_DIR$/node_modules/big.js/big.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ConstructedStats.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ConstructedStats.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginOptionsReader.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginOptionsReader.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2018.regexp.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2018.regexp.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginOptions.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginOptions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/WorkerPool.d.ts" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/WorkerPool.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es5.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es5.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.proxy.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.proxy.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/LICENSE.txt" afterPath="$PROJECT_DIR$/node_modules/typescript/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.esnext.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.esnext.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/color-convert/node_modules/color-name/README.md" afterPath="$PROJECT_DIR$/node_modules/color-convert/node_modules/color-name/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/getting-started/integration.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/getting-started/integration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-note.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-note.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-00/json-ref" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-00/json-ref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-anchorjs/anchor-style.js" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-anchorjs/anchor-style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/loglevel/test/vendor/json2.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/vendor/json2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.iterable.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.iterable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/FileHandler.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/FileHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackCompiler.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackCompiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/protractor/node_modules/@types/q/README.md" afterPath="$PROJECT_DIR$/node_modules/protractor/node_modules/@types/q/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/forms.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/forms.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/notes/license.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/notes/license.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/Logger.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/Logger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicenseTestRunner.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicenseTestRunner.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2017.intl.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2017.intl.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/AUTHORS.md" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/AUTHORS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/color-convert/node_modules/color-name/index.js" afterPath="$PROJECT_DIR$/node_modules/color-convert/node_modules/color-name/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-03/examples/calendar" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-03/examples/calendar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/tslib/tslib.es6.js" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/tslib/tslib.es6.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2020.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2020.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2020.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2020.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.collection.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.collection.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginModuleCache.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginModuleCache.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PackageJson.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PackageJson.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/layout/images/login/bg-login.jpg" afterPath="$PROJECT_DIR$/src/assets/layout/images/login/bg-login.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/animations/browser/browser.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/animations/browser/browser.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/component-emitter/Readme.md" afterPath="$PROJECT_DIR$/node_modules/component-emitter/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tslib/README.md" afterPath="$PROJECT_DIR$/node_modules/tslib/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/model/data/rol.model.ts" afterPath="$PROJECT_DIR$/src/app/model/data/rol.model.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/getting-started/installation.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/getting-started/installation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/memory-fs/README.md" afterPath="$PROJECT_DIR$/node_modules/webpack/node_modules/memory-fs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/fonts.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/fonts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@fullcalendar/core/main.js" afterPath="$PROJECT_DIR$/node_modules/@fullcalendar/core/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2018.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2018.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/component-emitter/History.md" afterPath="$PROJECT_DIR$/node_modules/component-emitter/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackCompilerHandler.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackCompilerHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/upgrade/upgrade.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/common/upgrade/upgrade.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/read-cache/index.js" afterPath="$PROJECT_DIR$/node_modules/read-cache/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/index.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTextOverrides.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTextOverrides.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/codelyzer/node_modules/sprintf-js/dist/.gitattributes" afterPath="$PROJECT_DIR$/node_modules/codelyzer/node_modules/sprintf-js/dist/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2017.string.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2017.string.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/blob/LICENSE" afterPath="$PROJECT_DIR$/node_modules/blob/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/upgrade/upgrade.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/router/upgrade/upgrade.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseWebpackPlugin.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseWebpackPlugin.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/engine.io-client/node_modules/component-emitter/index.js" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/node_modules/component-emitter/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.esnext.full.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.esnext.full.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parseqs/.npmignore" afterPath="$PROJECT_DIR$/node_modules/parseqs/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackFileSystem.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackFileSystem.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/reflect-metadata/Reflect.d.ts" afterPath="$PROJECT_DIR$/node_modules/reflect-metadata/Reflect.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-noicon.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-noicon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/loglevel/test/manual-test.html" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/manual-test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/methods/index.js" afterPath="$PROJECT_DIR$/node_modules/adm-zip/methods/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/headers/entryHeader.js" afterPath="$PROJECT_DIR$/node_modules/adm-zip/headers/entryHeader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicensesRenderer.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicensesRenderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@fullcalendar/timegrid/main.js" afterPath="$PROJECT_DIR$/node_modules/@fullcalendar/timegrid/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/charts.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/charts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/avalon/assets/layout/images/logo-black.png" afterPath="$PROJECT_DIR$/dist/avalon/assets/layout/images/logo-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2017.intl.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2017.intl.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/updates.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/updates.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/interactions/events.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/interactions/events.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-03/hyper-schema" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-03/hyper-schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/AUTHORS.md" afterPath="$PROJECT_DIR$/node_modules/typescript/AUTHORS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/MIT-LICENSE.txt" afterPath="$PROJECT_DIR$/node_modules/adm-zip/MIT-LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunkHandler.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunkHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/api.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/api.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/c3/9b/23a8a3388f58a7fa7e285887bb6e38b0cbe3152f6fa2de923eef5c068c4b" afterPath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/c3/9b/23a8a3388f58a7fa7e285887bb6e38b0cbe3152f6fa2de923eef5c068c4b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/color-convert/node_modules/color-name/test.js" afterPath="$PROJECT_DIR$/node_modules/color-convert/node_modules/color-name/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/README.md" afterPath="$PROJECT_DIR$/node_modules/adm-zip/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-chartjs/Chart.js" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-chartjs/Chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/Chart.js" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/Chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/model/data/user.model.ts" afterPath="$PROJECT_DIR$/src/app/model/data/user.model.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io-parser/node_modules/component-emitter/LICENSE" afterPath="$PROJECT_DIR$/node_modules/socket.io-parser/node_modules/component-emitter/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/blob/component.json" afterPath="$PROJECT_DIR$/node_modules/blob/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2019.array.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2019.array.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/reflect-metadata/AUTHORS.md" afterPath="$PROJECT_DIR$/node_modules/reflect-metadata/AUTHORS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parseqs/index.js" afterPath="$PROJECT_DIR$/node_modules/parseqs/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/big.js/big.min.js" afterPath="$PROJECT_DIR$/node_modules/big.js/big.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-04/links" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-04/links" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.proxy.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.proxy.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseFilesOverrides.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseFilesOverrides.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-animations.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-animations.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/urix/test/index.js" afterPath="$PROJECT_DIR$/node_modules/urix/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/regexps-iri.d.ts" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/regexps-iri.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/avalon/assets/layout/css/layout-blue-v4.css" afterPath="$PROJECT_DIR$/dist/avalon/assets/layout/css/layout-blue-v4.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseIdentifiedModule.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseIdentifiedModule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTextReader.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTextReader.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2018.promise.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2018.promise.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/engine.io-client/node_modules/component-emitter/Readme.md" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/node_modules/component-emitter/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tslib/tslib.d.ts" afterPath="$PROJECT_DIR$/node_modules/tslib/tslib.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io-client/node_modules/component-emitter/index.js" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/node_modules/component-emitter/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/README.md" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/adm-zip.js" afterPath="$PROJECT_DIR$/node_modules/adm-zip/adm-zip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/memory-fs/lib/MemoryFileSystem.js" afterPath="$PROJECT_DIR$/node_modules/webpack/node_modules/memory-fs/lib/MemoryFileSystem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-angular/node_modules/rxjs/bundles/rxjs.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-angular/node_modules/rxjs/bundles/rxjs.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2019.array.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2019.array.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunkModule.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunkModule.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/accessibility.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/accessibility.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/alphanum-sort/LICENSE" afterPath="$PROJECT_DIR$/node_modules/alphanum-sort/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/radar.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/radar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/urn.d.ts" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/urn.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/model/request/request-user.model.ts" afterPath="$PROJECT_DIR$/src/app/model/request/request-user.model.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/regexps-iri.js" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/regexps-iri.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/animations/bundles/animations-browser-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/animations/bundles/animations-browser-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-noicon.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-noicon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicensePolicy.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicensePolicy.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/notes/comparison.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/notes/comparison.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/index.js" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/testing/testing.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/core/testing/testing.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/blob/.idea/markdown-navigator.xml" afterPath="$PROJECT_DIR$/node_modules/blob/.idea/markdown-navigator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/es5/uri.all.d.ts" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/es5/uri.all.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTest.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/index.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/platform-browser-dynamic.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/platform-browser-dynamic.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/reflect-metadata/standalone.d.ts" afterPath="$PROJECT_DIR$/node_modules/reflect-metadata/standalone.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/zipFile.js" afterPath="$PROJECT_DIR$/node_modules/adm-zip/zipFile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/architect/node_modules/rxjs/bundles/rxjs.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/architect/node_modules/rxjs/bundles/rxjs.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/glob/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/@types/glob/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-help.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-help.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginFileHandler.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginFileHandler.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/LICENSE" afterPath="$PROJECT_DIR$/node_modules/xmlbuilder/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-paragraph.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-paragraph.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/es5/uri.all.min.d.ts" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/es5/uri.all.min.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackPlugin.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackPlugin.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es6.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es6.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/blob/Makefile" afterPath="$PROJECT_DIR$/node_modules/blob/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2016.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2016.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-04/hyper-schema" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-04/hyper-schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/styling.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/styling.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-01/json-ref" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-01/json-ref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackPlugin.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackPlugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2018.full.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2018.full.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/labelling.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/labelling.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/util.js" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2016.full.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2016.full.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.scripthost.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.scripthost.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/engine.io-client/engine.io.js" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/engine.io.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.webworker.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.webworker.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/notes/extensions.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/notes/extensions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/blob/.idea/blob.iml" afterPath="$PROJECT_DIR$/node_modules/blob/.idea/blob.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/testing/testing.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/router/testing/testing.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/util/errors.js" afterPath="$PROJECT_DIR$/node_modules/adm-zip/util/errors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginModuleCache.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginModuleCache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/uri.d.ts" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/uri.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/methods/deflater.js" afterPath="$PROJECT_DIR$/node_modules/adm-zip/methods/deflater.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/blob/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/node_modules/blob/.idea/markdown-navigator/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/ThirdPartyNoticeText.txt" afterPath="$PROJECT_DIR$/node_modules/typescript/ThirdPartyNoticeText.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/big.js/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/big.js/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parseuri/index.js" afterPath="$PROJECT_DIR$/node_modules/parseuri/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.iterable.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.iterable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2020.full.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2020.full.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/tslib/README.md" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/tslib/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginStats.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginStats.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.promise.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.promise.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-02/hyper-schema" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-02/hyper-schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/q/README.md" afterPath="$PROJECT_DIR$/node_modules/@types/q/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/resolve-url/test/resolve-url.js" afterPath="$PROJECT_DIR$/node_modules/resolve-url/test/resolve-url.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/lib/validate.js" afterPath="$PROJECT_DIR$/node_modules/json-schema/lib/validate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.webworker.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.webworker.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/jasminewd2/README.md" afterPath="$PROJECT_DIR$/node_modules/@types/jasminewd2/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/alphanum-sort/lib/compare.js" afterPath="$PROJECT_DIR$/node_modules/alphanum-sort/lib/compare.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2018.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2018.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.dom.iterable.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.dom.iterable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/jasmine/README.md" afterPath="$PROJECT_DIR$/node_modules/@types/jasmine/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2019.symbol.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2019.symbol.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2018.intl.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2018.intl.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/bundles/rxjs.umd.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/bundles/rxjs.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/color-convert/node_modules/color-name/.npmignore" afterPath="$PROJECT_DIR$/node_modules/color-convert/node_modules/color-name/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-03/json-ref" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-03/json-ref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/options.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/options.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2018.full.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2018.full.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicensesRenderer.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicensesRenderer.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/watchpack/lib/watchpack.js" afterPath="$PROJECT_DIR$/node_modules/watchpack/lib/watchpack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/doughnut.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/doughnut.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/tests/qunit.css" afterPath="$PROJECT_DIR$/node_modules/uri-js/tests/qunit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parseuri/.npmignore" afterPath="$PROJECT_DIR$/node_modules/parseuri/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/color-name/README.md" afterPath="$PROJECT_DIR$/node_modules/color-name/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/loglevel/test/test-qunit.html" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/test-qunit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTestRunner.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTestRunner.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-help.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-help.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/layout/images/logo.png" afterPath="$PROJECT_DIR$/src/assets/layout/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicenseTypeIdentifier.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicenseTypeIdentifier.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2017.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2017.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-chartjs/Chart.bundle.js" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-chartjs/Chart.bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/workers/ChildProcessWorker.d.ts" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/workers/ChildProcessWorker.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/responsive.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/responsive.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/LICENSE" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/pdfjs-dist/README.md" afterPath="$PROJECT_DIR$/node_modules/@types/pdfjs-dist/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackAssetManager.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackAssetManager.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/big.js/LICENCE" afterPath="$PROJECT_DIR$/node_modules/big.js/LICENCE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/http.d.ts" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/http.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2019.full.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2019.full.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackCompilation.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackCompilation.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/layout/images/logo-black.png" afterPath="$PROJECT_DIR$/src/assets/layout/images/logo-black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parseuri/Makefile" afterPath="$PROJECT_DIR$/node_modules/parseuri/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/memory-fs/lib/join.js" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/memory-fs/lib/join.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ngtools/webpack/node_modules/rxjs/bundles/rxjs.umd.js" afterPath="$PROJECT_DIR$/node_modules/@ngtools/webpack/node_modules/rxjs/bundles/rxjs.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/selenium-webdriver/README.md" afterPath="$PROJECT_DIR$/node_modules/@types/selenium-webdriver/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-03/examples/address" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-03/examples/address" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parseqs/README.md" afterPath="$PROJECT_DIR$/node_modules/parseqs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/node/LICENSE" afterPath="$PROJECT_DIR$/node_modules/@types/node/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/IncludeExcludeTest.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/IncludeExcludeTest.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/util/fileSystem.js" afterPath="$PROJECT_DIR$/node_modules/adm-zip/util/fileSystem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/tests/qunit.js" afterPath="$PROJECT_DIR$/node_modules/uri-js/tests/qunit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io-client/node_modules/component-emitter/Readme.md" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/node_modules/component-emitter/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/interactions/modes.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/interactions/modes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.esnext.bigint.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.esnext.bigint.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.dom.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.dom.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-newparagraph.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-newparagraph.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/big.js/big.mjs" afterPath="$PROJECT_DIR$/node_modules/big.js/big.mjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es6.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es6.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2017.full.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2017.full.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@schematics/update/node_modules/rxjs/bundles/rxjs.umd.js" afterPath="$PROJECT_DIR$/node_modules/@schematics/update/node_modules/rxjs/bundles/rxjs.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ConstructedOptions.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ConstructedOptions.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.reflect.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.reflect.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunkModule.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunkModule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackModuleFileIterator.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackModuleFileIterator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/protractor/node_modules/@types/q/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/protractor/node_modules/@types/q/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-chartjs/style.css" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/gitbook/gitbook-plugin-chartjs/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tslib/CopyrightNotice.txt" afterPath="$PROJECT_DIR$/node_modules/tslib/CopyrightNotice.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/app.login.component.ts" afterPath="$PROJECT_DIR$/src/app/pages/app.login.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/mixed.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/mixed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parseqs/Makefile" afterPath="$PROJECT_DIR$/node_modules/parseqs/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.esnext.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.esnext.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/estree/README.md" afterPath="$PROJECT_DIR$/node_modules/@types/estree/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parseuri/LICENSE" afterPath="$PROJECT_DIR$/node_modules/parseuri/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2018.promise.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2018.promise.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-key.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-key.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/resolve-url/resolve-url.js" afterPath="$PROJECT_DIR$/node_modules/resolve-url/resolve-url.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/zipEntry.js" afterPath="$PROJECT_DIR$/node_modules/adm-zip/zipEntry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/line.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/line.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-04/schema" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-04/schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2017.object.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2017.object.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.core.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.core.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-03/examples/card" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-03/examples/card" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-01/hyper-schema" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-01/hyper-schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginFileHandler.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginFileHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/memory-fs/lib/normalize.js" afterPath="$PROJECT_DIR$/node_modules/webpack/node_modules/memory-fs/lib/normalize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicenseTestRunner.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicenseTestRunner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/config/config.ts" afterPath="$PROJECT_DIR$/src/app/config/config.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/area.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/area.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io-parser/node_modules/component-emitter/History.md" afterPath="$PROJECT_DIR$/node_modules/socket.io-parser/node_modules/component-emitter/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.core.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.core.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.dom.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.dom.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTest.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTest.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/types.d.ts" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/types.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs-compat/bundles/rxjs-compat.umd.js" afterPath="$PROJECT_DIR$/node_modules/rxjs-compat/bundles/rxjs-compat.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tslib/LICENSE.txt" afterPath="$PROJECT_DIR$/node_modules/tslib/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/avalon.zip" afterPath="$PROJECT_DIR$/dist/avalon.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-paragraph.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-paragraph.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2019.object.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2019.object.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/testing/testing.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/testing/testing.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io-parser/node_modules/component-emitter/Readme.md" afterPath="$PROJECT_DIR$/node_modules/socket.io-parser/node_modules/component-emitter/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/device-pixel-ratio.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/device-pixel-ratio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/getting-started/usage.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/getting-started/usage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/loglevel/test/cookie-test.js" afterPath="$PROJECT_DIR$/node_modules/loglevel/test/cookie-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginChunkReadHandler.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginChunkReadHandler.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/http-proxy/.auto-changelog" afterPath="$PROJECT_DIR$/node_modules/http-proxy/.auto-changelog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/q/LICENSE" afterPath="$PROJECT_DIR$/node_modules/@types/q/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/JSONStream/test/fixtures/all_npm.json" afterPath="$PROJECT_DIR$/node_modules/JSONStream/test/fixtures/all_npm.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/getting-started/index.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/getting-started/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/README.md" afterPath="$PROJECT_DIR$/node_modules/typescript/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/watchpack/LICENSE" afterPath="$PROJECT_DIR$/node_modules/watchpack/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTestRunner.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTestRunner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/schematics/node_modules/rxjs/bundles/rxjs.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/schematics/node_modules/rxjs/bundles/rxjs.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/index.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/Chart.bundle.js" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/Chart.bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/router/bundles/router-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/memory-fs/lib/join.js" afterPath="$PROJECT_DIR$/node_modules/webpack/node_modules/memory-fs/lib/join.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/headers/mainHeader.js" afterPath="$PROJECT_DIR$/node_modules/adm-zip/headers/mainHeader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/urix/.jshintrc" afterPath="$PROJECT_DIR$/node_modules/urix/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.scripthost.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.scripthost.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-03/examples/geo" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-03/examples/geo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicenseTypeIdentifier.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PluginLicenseTypeIdentifier.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicensePolicy.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicensePolicy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/blob/test/index.js" afterPath="$PROJECT_DIR$/node_modules/blob/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.menu.component.ts" afterPath="$PROJECT_DIR$/src/app/app.menu.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/animations.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/animations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/appveyor.yml" afterPath="$PROJECT_DIR$/node_modules/xmlbuilder/appveyor.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/util/utils.js" afterPath="$PROJECT_DIR$/node_modules/adm-zip/util/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/README.md" afterPath="$PROJECT_DIR$/node_modules/xmlbuilder/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTextOverrides.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTextOverrides.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parseuri/History.md" afterPath="$PROJECT_DIR$/node_modules/parseuri/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/reflect-metadata/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/reflect-metadata/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/axes.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/axes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/resolve-url/.jshintrc" afterPath="$PROJECT_DIR$/node_modules/resolve-url/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2020.string.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2020.string.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.esnext.intl.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.esnext.intl.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/events/README.md" afterPath="$PROJECT_DIR$/node_modules/@types/events/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/watchpack/lib/DirectoryWatcher.js" afterPath="$PROJECT_DIR$/node_modules/watchpack/lib/DirectoryWatcher.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/colors.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/general/colors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ConstructedOptions.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ConstructedOptions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.reflect.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.reflect.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/minimatch/README.md" afterPath="$PROJECT_DIR$/node_modules/@types/minimatch/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ChunkIncludeExcludeTester.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ChunkIncludeExcludeTester.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/memory-fs/README.md" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/memory-fs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/avalon/assets/layout/images/logo.png" afterPath="$PROJECT_DIR$/dist/avalon/assets/layout/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@fullcalendar/daygrid/main.js" afterPath="$PROJECT_DIR$/node_modules/@fullcalendar/daygrid/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTextReader.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTextReader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/alphanum-sort/README.md" afterPath="$PROJECT_DIR$/node_modules/alphanum-sort/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/urix/readme.md" afterPath="$PROJECT_DIR$/node_modules/urix/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/methods/inflater.js" afterPath="$PROJECT_DIR$/node_modules/adm-zip/methods/inflater.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/engine.io-client/node_modules/component-emitter/History.md" afterPath="$PROJECT_DIR$/node_modules/engine.io-client/node_modules/component-emitter/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@fullcalendar/interaction/main.js" afterPath="$PROJECT_DIR$/node_modules/@fullcalendar/interaction/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/test/tests.js" afterPath="$PROJECT_DIR$/node_modules/json-schema/test/tests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicensePolicy.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicensePolicy.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/index.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/regexps-uri.d.ts" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/regexps-uri.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/Logger.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/Logger.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackModuleFileIterator.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackModuleFileIterator.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2019.string.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2019.string.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/scatter.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/scatter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTypeOverrides.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTypeOverrides.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/color-name/index.js" afterPath="$PROJECT_DIR$/node_modules/color-name/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/loglevel/LICENSE-MIT" afterPath="$PROJECT_DIR$/node_modules/loglevel/LICENSE-MIT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/watchpack/README.md" afterPath="$PROJECT_DIR$/node_modules/watchpack/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/workers/threadChild.d.ts" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/workers/threadChild.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-insert.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-insert.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2019.symbol.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2019.symbol.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parseqs/test.js" afterPath="$PROJECT_DIR$/node_modules/parseqs/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/animations/browser/testing/testing.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/animations/browser/testing/testing.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/urn-uuid.d.ts" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/urn-uuid.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-zyp-json-schema-03.xml" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-zyp-json-schema-03.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/cartesian/logarithmic.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/cartesian/logarithmic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-02/schema" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-02/schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/mailto.d.ts" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/mailto.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicensesRenderer.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicensesRenderer.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/color-convert/node_modules/color-name/LICENSE" afterPath="$PROJECT_DIR$/node_modules/color-convert/node_modules/color-name/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/component-emitter/LICENSE" afterPath="$PROJECT_DIR$/node_modules/component-emitter/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2018.regexp.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2018.regexp.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.webworker.importscripts.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.webworker.importscripts.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io-client/node_modules/component-emitter/LICENSE" afterPath="$PROJECT_DIR$/node_modules/socket.io-client/node_modules/component-emitter/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-note.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-note.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/core.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/core/core.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/app.login.component.html" afterPath="$PROJECT_DIR$/src/app/pages/app.login.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/jasmine/LICENSE" afterPath="$PROJECT_DIR$/node_modules/@types/jasmine/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/animations/bundles/animations-browser.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/animations/bundles/animations-browser.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/IncludeExcludeTest.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/IncludeExcludeTest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/util/fattr.js" afterPath="$PROJECT_DIR$/node_modules/adm-zip/util/fattr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/radial/linear.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/radial/linear.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PackageJson.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/PackageJson.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/tslib/CopyrightNotice.txt" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/tslib/CopyrightNotice.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/urn-uuid.js" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/urn-uuid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parseuri/test.js" afterPath="$PROJECT_DIR$/node_modules/parseuri/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-check.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/es5/web/images/annotation-check.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/animations/animations.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/animations/animations.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.symbol.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.symbol.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-01/links" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-01/links" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/index.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eventsource/example/eventsource-polyfill.js" afterPath="$PROJECT_DIR$/node_modules/eventsource/example/eventsource-polyfill.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/rxjs/bundles/rxjs.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/core/node_modules/rxjs/bundles/rxjs.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/util.d.ts" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/util.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2017.object.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2017.object.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.profile.component.ts" afterPath="$PROJECT_DIR$/src/app/app.profile.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-zyp-json-schema-04.xml" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-zyp-json-schema-04.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/color-name/LICENSE" afterPath="$PROJECT_DIR$/node_modules/color-name/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/AssetManager.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/AssetManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io-parser/node_modules/component-emitter/index.js" afterPath="$PROJECT_DIR$/node_modules/socket.io-parser/node_modules/component-emitter/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/Module.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/Module.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/services/usuario/usuario.service.ts" afterPath="$PROJECT_DIR$/src/app/services/usuario/usuario.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/memory-fs/lib/normalize.js" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/memory-fs/lib/normalize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/title.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/title.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/avalon/assets/layout/images/login/bg-login.jpg" afterPath="$PROJECT_DIR$/dist/avalon/assets/layout/images/login/bg-login.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunk.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunk.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/webpack-sources/LICENSE" afterPath="$PROJECT_DIR$/node_modules/@types/webpack-sources/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/tooltip.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/tooltip.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/jasminewd2/LICENSE" afterPath="$PROJECT_DIR$/node_modules/@types/jasminewd2/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-00/hyper-schema" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-00/hyper-schema" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/reflect-metadata/CopyrightNotice.txt" afterPath="$PROJECT_DIR$/node_modules/reflect-metadata/CopyrightNotice.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/router/router.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/router/router.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parseqs/LICENSE" afterPath="$PROJECT_DIR$/node_modules/parseqs/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/FileSystem.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/FileSystem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/http/testing/testing.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/common/http/testing/testing.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/read-cache/README.md" afterPath="$PROJECT_DIR$/node_modules/read-cache/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/bar.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/charts/bar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/contributing.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/developers/contributing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/platform-browser.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/platform-browser.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.webworker.importscripts.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.webworker.importscripts.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/coa/coa.d.ts" afterPath="$PROJECT_DIR$/node_modules/coa/coa.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-00/links" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-00/links" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/http.js" afterPath="$PROJECT_DIR$/node_modules/uri-js/dist/esnext/schemes/http.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2019.string.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2019.string.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2019.object.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2019.object.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/98/04/5f4bf8ddfea58a13a139d07aedf82e77fa08c8b63997d7fc10abfd0e9a33" afterPath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/98/04/5f4bf8ddfea58a13a139d07aedf82e77fa08c8b63997d7fc10abfd0e9a33" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-02/json-ref" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-02/json-ref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.esnext.intl.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.esnext.intl.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTypeIdentifier.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTypeIdentifier.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/LICENSE.txt" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/resolve-url/readme.md" afterPath="$PROJECT_DIR$/node_modules/resolve-url/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core-testing.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-comment.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-comment.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/base/BaseWorkerPool.d.ts" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/jest-worker/build/ts3.4/base/BaseWorkerPool.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/avalon/3rdpartylicenses.txt" afterPath="$PROJECT_DIR$/dist/avalon/3rdpartylicenses.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parseuri/README.md" afterPath="$PROJECT_DIR$/node_modules/parseuri/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2020.string.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2020.string.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.esnext.full.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.esnext.full.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/reflect-metadata/reflect-metadata.d.ts" afterPath="$PROJECT_DIR$/node_modules/reflect-metadata/reflect-metadata.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@webassemblyjs/floating-point-hex-parser/LICENSE" afterPath="$PROJECT_DIR$/node_modules/@webassemblyjs/floating-point-hex-parser/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular.json" afterPath="$PROJECT_DIR$/angular.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-03/examples/interfaces" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-03/examples/interfaces" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-newparagraph.svg" afterPath="$PROJECT_DIR$/node_modules/pdfjs-dist/web/images/annotation-newparagraph.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/tslib/tslib.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/tslib/tslib.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/lib/links.js" afterPath="$PROJECT_DIR$/node_modules/json-schema/lib/links.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.symbol.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/lib/lib.es2015.symbol.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2018.intl.d.ts" afterPath="$PROJECT_DIR$/node_modules/typescript/lib/lib.es2018.intl.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTypeIdentifier.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicenseTypeIdentifier.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/index.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/axes/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/pdfjs-dist/LICENSE" afterPath="$PROJECT_DIR$/node_modules/@types/pdfjs-dist/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ModuleCache.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ModuleCache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.footer.component.ts" afterPath="$PROJECT_DIR$/src/app/app.footer.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/blob/index.js" afterPath="$PROJECT_DIR$/node_modules/blob/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ModuleCache.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/ModuleCache.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/69/38/b3eeb487a4a1e9e17b92be92fde0b301e282be3e0199c9e2e86cee35a503" afterPath="$PROJECT_DIR$/node_modules/.cache/angular-build-dl/index-v5/69/38/b3eeb487a4a1e9e17b92be92fde0b301e282be3e0199c9e2e86cee35a503" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackCompilation.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackCompilation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunkModuleIterator.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackChunkModuleIterator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/glob/README.md" afterPath="$PROJECT_DIR$/node_modules/@types/glob/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicensesRenderer.js" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/LicensesRenderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@types/selenium-webdriver/LICENSE" afterPath="$PROJECT_DIR$/node_modules/@types/selenium-webdriver/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/legend.html" afterPath="$PROJECT_DIR$/node_modules/chart.js/dist/docs/configuration/legend.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackCompiler.d.ts" afterPath="$PROJECT_DIR$/node_modules/license-webpack-plugin/dist/WebpackCompiler.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/adm-zip/util/constants.js" afterPath="$PROJECT_DIR$/node_modules/adm-zip/util/constants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json-schema/draft-02/links" afterPath="$PROJECT_DIR$/node_modules/json-schema/draft-02/links" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="location-blacklist-list.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/view/location/location-blacklist-list/location-blacklist-list.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="66" column="47" lean-forward="false" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="location-phone-list.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/view/location/location-phone-list/location-phone-list.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>listLocalidadModel</find>
+      <find>listTelefonoContactoModel</find>
+      <find>listBlackListModel</find>
+      <find>RESIDENCIAL</find>
+      <find>localidadModel</find>
+      <find>length</find>
+      <find>localStorage.setItem('puntoModel'</find>
+      <find>telefonoContactoModel</find>
+      <find>localStorage.setItem</find>
+      <find>CDN_STORAGE</find>
+      <find>ngAft</find>
+      <find>childResident</find>
+      <find>tabLocationIndex</find>
+      <find>fa-s</find>
+      <find>preautorizacionModel</find>
+      <find>new Date</find>
+      <find>registro/edicion/preautorizacion</find>
+      <find>disabled</find>
+      <find>user</find>
+      <find>listPuntoModel</find>
+      <find>requestFilterPoint</find>
+      <find>listRolModel</find>
+      <find>requestFilterRol</find>
+      <find>listClientItem</find>
+      <find>puntoModel</find>
+      <find>selectEmpresaModel</find>
+      <find>selectRolModel</find>
+      <find>img</find>
+      <find>rolName</find>
+      <find>asset</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/app/view/location</dir>
+      <dir>$PROJECT_DIR$/src/app</dir>
+      <dir>$PROJECT_DIR$/src/app/view</dir>
+      <dir>$PROJECT_DIR$/src/app/demo</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/model/data/vehiculo.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-vehicle-list/location-vehicle-list.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-create/location-create.component.html" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-create/location-create.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-list/location-list.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/model/data/residente.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-list/location-list.component.html" />
+        <option value="$PROJECT_DIR$/src/app/model/request/request-calculate-date.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/model/response/response-calculate-date.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-vehicle-create/location-vehicle-create.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-vehicle-create/location-vehicle-create.component.html" />
+        <option value="$PROJECT_DIR$/src/app/app.routes.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.menu.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/model/request/request-filter-rol.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/model/data/rol.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/model/response/response-filter-rol.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/admin/rol-list/rol-list.component.html" />
+        <option value="$PROJECT_DIR$/src/app/view/admin/rol-create/rol-create.component.html" />
+        <option value="$PROJECT_DIR$/src/app/view/admin/rol-create/rol-create.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/admin/rol-list/rol-list.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/model/response/response-filter-user.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/model/request/request-filter-user.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/admin/user-list/user-list.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/admin/user-list/user-list.component.html" />
+        <option value="$PROJECT_DIR$/src/app/model/data/black-list.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/model/response/response-status.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/model/data/preautorizacion.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/model/data/persona.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/model/data/telefono-contacto.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-phone-create/location-phone-create.component.html" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-blacklist-create/location-blacklist-create.component.html" />
+        <option value="$PROJECT_DIR$/src/app/services/access.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-preauthorization-create/location-preauthorization-create.component.html" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-preauthorization-create/location-preauthorization-create.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-blacklist-create/location-blacklist-create.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-phone-create/location-phone-create.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-resident-create/location-resident-create.component.html" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-resident-create/location-resident-create.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/model/data/user.model.ts" />
+        <option value="$PROJECT_DIR$/src/app/services/usuario/usuario.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.profile.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/config/config.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-blacklist-list/location-blacklist-list.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-blacklist-list/location-blacklist-list.component.html" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-phone-list/location-phone-list.component.html" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-preauthorization-list/location-preauthorization-list.component.html" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-resident-list/location-resident-list.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-resident-list/location-resident-list.component.html" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-preauthorization-list/location-preauthorization-list.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/view/location/location-phone-list/location-phone-list.component.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="836" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>Unit testingJavaScript</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ec.cajamarca.safe.entry.site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ec.cajamarca.safe.entry.site" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/node_modules/tslint" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
+    <property name="typescript-compiler-editor-notification" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/view/admin" />
+      <recent name="$PROJECT_DIR$/src/app/services" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/layout/images/icons" />
+      <recent name="$PROJECT_DIR$/src/app/model/request" />
+      <recent name="$PROJECT_DIR$/src/app/model/response" />
+      <recent name="$PROJECT_DIR$/src/app/model/data" />
+      <recent name="$PROJECT_DIR$/src/assets/layout/images/login" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b3e7f6a-3e19-46f4-a7da-1f3bb7847b5f" name="Default" comment="" />
+      <created>1591899617745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591899617745</updated>
+      <workItem from="1591899624240" duration="5977000" />
+      <workItem from="1591971908698" duration="7187000" />
+      <workItem from="1592254136079" duration="7994000" />
+      <workItem from="1592265522894" duration="1395000" />
+      <workItem from="1592341032750" duration="5376000" />
+      <workItem from="1592355686698" duration="666000" />
+      <workItem from="1592368406556" duration="4317000" />
+      <workItem from="1592431177368" duration="1397000" />
+      <workItem from="1592447739403" duration="18000" />
+      <workItem from="1592523283333" duration="1759000" />
+      <workItem from="1592544313177" duration="83000" />
+      <workItem from="1593452197860" duration="891000" />
+      <workItem from="1595868732533" duration="8152000" />
+      <workItem from="1596058093544" duration="1025000" />
+      <workItem from="1577837061806" duration="2382000" />
+      <workItem from="1596128218254" duration="30000" />
+      <workItem from="1596128391419" duration="1128000" />
+      <workItem from="1601062431252" duration="19000" />
+      <workItem from="1605022593342" duration="594000" />
+      <workItem from="1605033858050" duration="575000" />
+      <workItem from="1605712657360" duration="21403000" />
+      <workItem from="1605812314144" duration="1920000" />
+      <workItem from="1605839865939" duration="133000" />
+      <workItem from="1605994307913" duration="66000" />
+      <workItem from="1606749879283" duration="15418000" />
+      <workItem from="1606836027120" duration="4686000" />
+      <workItem from="1606848735570" duration="11740000" />
+      <workItem from="1606922114592" duration="4864000" />
+      <workItem from="1606932896104" duration="11005000" />
+      <workItem from="1607010414622" duration="556000" />
+      <workItem from="1607011234870" duration="241000" />
+      <workItem from="1607379549372" duration="588000" />
+      <workItem from="1607440006336" duration="18424000" />
+      <workItem from="1607528378725" duration="13490000" />
+      <workItem from="1607970299207" duration="6621000" />
+      <workItem from="1608048482162" duration="17234000" />
+      <workItem from="1608224910257" duration="52000" />
+      <workItem from="1608310412570" duration="847000" />
+      <workItem from="1608323486710" duration="15000" />
+      <workItem from="1608578470903" duration="8000" />
+      <workItem from="1609174079837" duration="14075000" />
+      <workItem from="1609253669876" duration="10049000" />
+      <workItem from="1609340582202" duration="12997000" />
+      <workItem from="1609426223428" duration="566000" />
+      <workItem from="1609775531689" duration="2681000" />
+      <workItem from="1609881235969" duration="6148000" />
+      <workItem from="1609946250207" duration="3446000" />
+      <workItem from="1610037499143" duration="4236000" />
+      <workItem from="1610118822740" duration="7018000" />
+      <workItem from="1610636393902" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="241493000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="836" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2576389" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21596858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19240838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/model/response/response-filter-rol.model.ts</url>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/view/point/point-create/point-create.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="127" column="9" lean-forward="true" selection-start-line="124" selection-start-column="10" selection-end-line="127" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-vehicle-create/location-vehicle-create.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="50" column="41" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="50" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/data/summary.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/response/response-status.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/response/response-filter-blacklist.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/data/black-list.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/data/residente.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/data/telefono-contacto.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/data/preautorizacion.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-phone-create/location-phone-create.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="78" column="35" lean-forward="true" selection-start-line="70" selection-start-column="19" selection-end-line="78" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-preauthorization-create/location-preauthorization-create.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="105" column="26" lean-forward="true" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-phone-create/location-phone-create.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="86" column="43" lean-forward="true" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-resident-create/location-resident-create.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="142" column="22" lean-forward="true" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-preauthorization-create/location-preauthorization-create.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-blacklist-create/location-blacklist-create.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="87" column="35" lean-forward="true" selection-start-line="79" selection-start-column="20" selection-end-line="87" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-blacklist-create/location-blacklist-create.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/services/access.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="379" column="24" lean-forward="false" selection-start-line="379" selection-start-column="24" selection-end-line="379" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/response/response-login.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/data/persona.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/data/rol.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-resident-create/location-resident-create.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="127" column="80" lean-forward="true" selection-start-line="127" selection-start-column="80" selection-end-line="127" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/model/data/user.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/services/usuario/usuario.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/app.login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="127" column="31" lean-forward="false" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.footer.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.menu.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1053">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.topbar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="178" column="46" lean-forward="true" selection-start-line="178" selection-start-column="46" selection-end-line="178" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="65" column="57" lean-forward="true" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.profile.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/config/config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/layout/images/avatar.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/layout/images/avatar1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/layout/images/avatar2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/layout/images/tth-connector.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/layout/images/preloader.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/layout/images/logo-quest.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/layout/images/logo-light-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/layout/images/logo-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/layout/images/logo-dark.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/layout/images/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/layout/images/favicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/layout/images/avatar5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/layout/images/avatar4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-phone-list/location-phone-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="84" column="33" lean-forward="false" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-blacklist-list/location-blacklist-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="86" column="33" lean-forward="true" selection-start-line="84" selection-start-column="27" selection-end-line="86" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-resident-list/location-resident-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="83" column="80" lean-forward="false" selection-start-line="83" selection-start-column="80" selection-end-line="83" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-resident-list/location-resident-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-preauthorization-list/location-preauthorization-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-preauthorization-list/location-preauthorization-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="85" column="33" lean-forward="false" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-phone-list/location-phone-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/view/location/location-blacklist-list/location-blacklist-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="66" column="47" lean-forward="false" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
